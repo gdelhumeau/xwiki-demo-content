@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc version="1.2" reference="DemoContent.Blog.XWiki 84 Released" locale="">
+  <web>DemoContent.Blog</web>
+  <name>XWiki 84 Released</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1480951099000</creationDate>
+  <parent>xwiki:DemoContent.Blog.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1480951656000</date>
+  <contentUpdateDate>1480951099000</contentUpdateDate>
+  <version>1.1</version>
+  <title>XWiki 8.4 Released</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <content/>
+  <object>
+    <name>DemoContent.Blog.XWiki 84 Released</name>
+    <number>0</number>
+    <className>Blog.BlogPostClass</className>
+    <guid>41bfa7bf-d797-4495-a3a0-1a9f7fadf90f</guid>
+    <class>
+      <name>Blog.BlogPostClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <category>
+        <cache>0</cache>
+        <classname>Blog.CategoryClass</classname>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <displayType>checkbox</displayType>
+        <idField>doc.fullName</idField>
+        <multiSelect>1</multiSelect>
+        <name>category</name>
+        <number>4</number>
+        <parentField>doc.parent</parentField>
+        <picker>0</picker>
+        <prettyName>Category</prettyName>
+        <relationalStorage>1</relationalStorage>
+        <separator>, </separator>
+        <separators/>
+        <size>1</size>
+        <sort>value</sort>
+        <sql>select doc.name from XWikiDocument doc, BaseObject as obj where doc.fullName = obj.name and obj.className = 'Blog.CategoryClass' and  doc.fullName not in ('Blog.CategoryTemplate', 'Blog.Categories')</sql>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <valueField>name</valueField>
+        <classType>com.xpn.xwiki.objects.classes.DBTreeListClass</classType>
+      </category>
+      <content>
+        <contenttype>FullyRenderedText</contenttype>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>content</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Content</prettyName>
+        <rows>20</rows>
+        <size>80</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </content>
+      <extract>
+        <contenttype>FullyRenderedText</contenttype>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>extract</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Extract</prettyName>
+        <rows>10</rows>
+        <size>80</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </extract>
+      <hidden>
+        <customDisplay/>
+        <defaultValue>0</defaultValue>
+        <disabled>0</disabled>
+        <displayFormType>checkbox</displayFormType>
+        <displayType/>
+        <name>hidden</name>
+        <number>5</number>
+        <prettyName>Is hidden</prettyName>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </hidden>
+      <publishDate>
+        <customDisplay/>
+        <dateFormat>dd/MM/yyyy HH:mm:ss</dateFormat>
+        <disabled>0</disabled>
+        <emptyIsToday>1</emptyIsToday>
+        <name>publishDate</name>
+        <number>7</number>
+        <picker>1</picker>
+        <prettyName>Publish date</prettyName>
+        <size>20</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.DateClass</classType>
+      </publishDate>
+      <published>
+        <customDisplay/>
+        <defaultValue>0</defaultValue>
+        <disabled>0</disabled>
+        <displayFormType>checkbox</displayFormType>
+        <displayType/>
+        <name>published</name>
+        <number>6</number>
+        <prettyName>Is published</prettyName>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </published>
+      <title>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>title</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>Title</prettyName>
+        <size>80</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </title>
+    </class>
+    <property>
+      <category/>
+    </property>
+    <property>
+      <content>The XWiki development team is proud to announce the availability of XWiki 8.4.
+
+This version brings a lot of usability improvements. The WYSIWYG editor (CKEditor) has been upgraded and proposes a better dialog for the creation of links. It is also possible to configure it from the administration.
+
+Application Within Minutes does not enforce anymore the location where the application's entries must be created, but proposes to the creator the places where and from where these entries should be. We have also get rid of the Data page where the entries where created before.
+
+The default values of the user preferences are now better exposed to the users. The order of the applications in the application panel can now be changed by the administrator. And the users now have the ability to filter the page types when they create a page.
+
+As usual plenty of less noticeable improvements are proposed, and 45 bugs have been fixed since XWiki 8.3.
+
+See the [[release notes&gt;&gt;https://www.xwiki.org/xwiki/bin/view/ReleaseNotes/Data/XWiki/8.4/]] for more information.</content>
+    </property>
+    <property>
+      <extract> </extract>
+    </property>
+    <property>
+      <hidden>0</hidden>
+    </property>
+    <property>
+      <publishDate>2016-11-10 18:43:39.0</publishDate>
+    </property>
+    <property>
+      <published>1</published>
+    </property>
+    <property>
+      <title>XWiki 8.4 Released</title>
+    </property>
+  </object>
+</xwikidoc>

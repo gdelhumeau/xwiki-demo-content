@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc version="1.2" reference="DemoContent.Blog.HowToBreakAPI" locale="">
+  <web>DemoContent.Blog</web>
+  <name>HowToBreakAPI</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1480951116000</creationDate>
+  <parent>xwiki:DemoContent.Blog.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1480951116000</date>
+  <contentUpdateDate>1480951116000</contentUpdateDate>
+  <version>1.1</version>
+  <title>How to break an API: The XWiki view</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <content/>
+  <attachment>
+    <filename>scalexwiki.png</filename>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1480950971000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>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</content>
+    <filesize>5138</filesize>
+  </attachment>
+  <object>
+    <name>DemoContent.Blog.HowToBreakAPI</name>
+    <number>0</number>
+    <className>Blog.BlogPostClass</className>
+    <guid>df385399-450c-4eec-85c5-1e499a41a81c</guid>
+    <class>
+      <name>Blog.BlogPostClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <category>
+        <cache>0</cache>
+        <classname>Blog.CategoryClass</classname>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <displayType>checkbox</displayType>
+        <idField>doc.fullName</idField>
+        <multiSelect>1</multiSelect>
+        <name>category</name>
+        <number>4</number>
+        <parentField>doc.parent</parentField>
+        <picker>0</picker>
+        <prettyName>Category</prettyName>
+        <relationalStorage>1</relationalStorage>
+        <separator>, </separator>
+        <separators/>
+        <size>1</size>
+        <sort>value</sort>
+        <sql>select doc.name from XWikiDocument doc, BaseObject as obj where doc.fullName = obj.name and obj.className = 'Blog.CategoryClass' and  doc.fullName not in ('Blog.CategoryTemplate', 'Blog.Categories')</sql>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <valueField>name</valueField>
+        <classType>com.xpn.xwiki.objects.classes.DBTreeListClass</classType>
+      </category>
+      <content>
+        <contenttype>FullyRenderedText</contenttype>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>content</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Content</prettyName>
+        <rows>20</rows>
+        <size>80</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </content>
+      <extract>
+        <contenttype>FullyRenderedText</contenttype>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>extract</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Extract</prettyName>
+        <rows>10</rows>
+        <size>80</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </extract>
+      <hidden>
+        <customDisplay/>
+        <defaultValue>0</defaultValue>
+        <disabled>0</disabled>
+        <displayFormType>checkbox</displayFormType>
+        <displayType/>
+        <name>hidden</name>
+        <number>5</number>
+        <prettyName>Is hidden</prettyName>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </hidden>
+      <publishDate>
+        <customDisplay/>
+        <dateFormat>dd/MM/yyyy HH:mm:ss</dateFormat>
+        <disabled>0</disabled>
+        <emptyIsToday>1</emptyIsToday>
+        <name>publishDate</name>
+        <number>7</number>
+        <picker>1</picker>
+        <prettyName>Publish date</prettyName>
+        <size>20</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.DateClass</classType>
+      </publishDate>
+      <published>
+        <customDisplay/>
+        <defaultValue>0</defaultValue>
+        <disabled>0</disabled>
+        <displayFormType>checkbox</displayFormType>
+        <displayType/>
+        <name>published</name>
+        <number>6</number>
+        <prettyName>Is published</prettyName>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </published>
+      <title>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>title</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>Title</prettyName>
+        <size>80</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </title>
+    </class>
+    <property>
+      <category>
+        <value>Blog.Other</value>
+      </category>
+    </property>
+    <property>
+      <content>This is an add-on to the interesting article [[How to break an API&gt;&gt;http://breakingapis.org/]] which shows how several projects handle backward compatibility (Eclipse, R and Node.js). This article presents the position of the [[XWiki open source project&gt;&gt;http://xwiki.org]].
+
+= The XWiki Ecosystem: Extensible wiki and framework, over 800 extensions since 2004 =
+
+The XWiki project started in 2004, it's now 12 years old. It can be seen as a professional wiki but it's much more. It's actually a platform for developing collaborative web apps and thus it provides lots of API. The whole of XWiki can be accessed through API and the default wiki provided is just an example of what you can achieve with the API (similar to Eclipse JDT - the IDE - which is just an example of what can be done with Eclipse APIs).
+
+&gt; XWiki extensions developed 10 years ago can still be installed in the newest versions of XWiki and will mostly work (some small UI aspects may be off a bit but the API calls will still work).
+
+= Community Values in XWiki =
+
+The consequence of XWiki being a platform is that XWiki users develop applications in their wikis, using APIs. XWiki can be seen as a language and once a language is mature, it should not break APIs.
+
+A core value of the XWiki community is backward compatibility. 
+
+Thus XWiki has developed a strong set of practices and tools to ensure that APIs do not get broken.
+
+The philosophy can be summed as:
+* Full backward compatibility to reduce costs for users scripting in wiki pages
+* Backward compatibility to reduce costs for maintainers to the maximum
+
+= Change Practices and Costs in XWiki =
+
+image:scalexwiki.png
+
+{{container layoutStyle="columns"}}
+(((
+=== Expensive for changer ===
+* Willing to accept high costs and opportunity costs for compatibility
+* Community created [[detailed best practices around binary compatibility&gt;&gt;http://dev.xwiki.org/xwiki/bin/view/Community/DevelopmentPractices#HBackwardCompatibility]]
+* Detailed change documentation for each release. [[Example&gt;&gt;http://www.xwiki.org/xwiki/bin/view/ReleaseNotes/ReleaseNotesXWiki80#HBackwardCompatibilityandMigrationNotes]]
+* Fighting resulting amounting technical debt with tools with legacy modules by moving out deprecated methods
+* [[Static analysis tool&gt;&gt;http://massol.myxwiki.org/xwiki/bin/view/Blog/ByeByeCLIRRWelcomeRevapi]] to check compatibility at build time (failing the build when breakage found)
+* Semantic versioning and backporting important bugs into LTS releases
+)))
+(((
+=== Minimal rework and interruption costs for users ===
+* Dependencies reliable and stable; involvement and rework rarely required.
+* Convenient for vendors who can support latest release and older ones without changes (10 year old extensions still work).
+* Major releases every 3 month and yearly cycle
+)))
+{{/container}}
+
+= Speed of Development =
+
+The XWiki open source project has developed [[several strategies&gt;&gt;http://massol.myxwiki.org/xwiki/bin/view/Blog/BackwardCompatibilityStrategy]] to balance the cost of preserving backward compatibility with the ability to innovate at the same time:
+* ##@Unstable## annotation to signify to developers when a new API is introduced and can be subject to changes. Changes during one full cycle is allowed (which means up to 2 years in the unstable state). This is to acknowledge the fact that creating an API right on the first try is an almost impossible feat. In addition, the XWiki project has an automated build-time enforcer to break the build if an ##@Unstable## annotations remains in the code but its time has elapsed (using the ##@since## version). Example of usage:(((
+{{code language="java"}}
+/**
+ * Provides instance-specific scripting APIs.
+ * [...]
+ * @since 8.3RC1
+ */
+@Unstable
+public class InstanceScriptService implements ScriptService
+{
+    ...
+}
+{{/code}}
+)))
+* XWiki uses a ##@deprecated## strategy but once the core code has been modified to not use the deprecated API anymore, the API is moved to a legacy build module. This is done using AspectJ. XWiki releases the legacy modules and they're included by default in the distribution. However when developer build XWiki every day, they build without it (CI builds with it) and they don't see those APIs. Thus no code uses deprecated APIs once they've been moved out!
+
+However the XWiki project takes substantial time and effort to ensure backward compatibility all the time. 3 examples:
+*  When the rendering engine was redone in 2007 the existing engine of the time was left in and instead a notion of configurable syntax was introduced and based on the page syntax the old rendering engine was used or the new one was used. A bridge support for the old syntax was even implemented in the new rendering engine and after several years (8 years!), the old syntax and old rendering were moved as an optional extension, not bundled by default in the distribution. They can still be installed very easily though!
+* When support for Nested Pages was introduced in 2015, it was a huge refactoring that touched almost all aspects of the code base. Yet a lot of actions were taken to preserve backward compatibility (at the expense of innovation in a few cases, for example for the link reference notation which became more complex than it should be). A Migrator application was even written to help users migrate.
+* When database schema changes are done, the XWiki project always provide automatic migrators that are executed under the hood when users upgrade their XWiki instances.
+</content>
+    </property>
+    <property>
+      <extract>This is an add-on to the interesting article [[How to break an API&gt;&gt;http://breakingapis.org/]] which shows how several projects handle backward compatibility (Eclipse, R and Node.js). This article presents the position of the [[XWiki open source project&gt;&gt;http://xwiki.org]].
+</extract>
+    </property>
+    <property>
+      <hidden>0</hidden>
+    </property>
+    <property>
+      <publishDate>2016-09-21 10:21:20.0</publishDate>
+    </property>
+    <property>
+      <published>1</published>
+    </property>
+    <property>
+      <title>How to break an API: The XWiki view</title>
+    </property>
+  </object>
+</xwikidoc>
