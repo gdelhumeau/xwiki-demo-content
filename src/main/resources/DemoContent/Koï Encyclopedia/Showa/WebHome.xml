@@ -39,7 +39,47 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content/>
+  <content>(% class="row" %)
+(((
+(% class="col-xs-12 col-sm-8" %)
+(((
+(% class="jumbotron" %)
+(((
+(% class="container" %)
+(((
+The Showa is a black carp, with white and red marks.
+)))
+)))
+
+Don't confuse with [[Sanke&gt;&gt;doc:DemoContent.Koï Encyclopedia.Sanke.WebHome]], which is a white carp with black and red marks.
+
+= Anecdote =
+
+This variete has been created during the reign of the Showa Emperor.
+)))
+
+(% class="col-xs-12 col-sm-4" %)
+(((
+(% class="box" %)
+(((
+= Showa =
+
+(% style="text-align:center" %)
+[[image:Showa.jpg||alt="image.jpg" height="250" style="width: 100%;" width="288"]]
+
+|=Colors|Black, White and Red
+|=Date of creation|1927
+|=Image|[[Credits&gt;&gt;https://www.flickr.com/photos/randychiu/4129868055/]]
+)))
+
+(% class="box" %)
+(((
+**Contents**
+
+{{toc/}}
+)))
+)))
+)))</content>
   <attachment>
     <filename>Showa.jpg</filename>
     <author>xwiki:XWiki.Admin</author>

@@ -39,7 +39,43 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content/>
+  <content>(% class="row" %)
+(((
+(% class="col-xs-12 col-sm-8" %)
+(((
+(% class="jumbotron" %)
+(((
+(% class="container" %)
+(((
+Tancho is a white carp, with a red dot on the head that remind the Japanese flag.
+)))
+)))
+
+=   =
+)))
+
+(% class="col-xs-12 col-sm-4" %)
+(((
+(% class="box" %)
+(((
+= Tancho =
+
+(% style="text-align:center" %)
+[[image:Tancho.jpg||alt="image.jpg" height="250" width="166"]]
+
+|=Colors|White with a red dot on the head
+|=Date of creation|Unknown
+|=Image|[[Credits&gt;&gt;https://www.flickr.com/photos/koiquest10/5847667217/]]
+)))
+
+(% class="box" %)
+(((
+**Contents**
+
+{{toc/}}
+)))
+)))
+)))</content>
   <attachment>
     <filename>Tancho.jpg</filename>
     <author>xwiki:XWiki.Admin</author>

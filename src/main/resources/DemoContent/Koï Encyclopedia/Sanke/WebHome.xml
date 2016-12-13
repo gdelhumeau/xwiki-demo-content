@@ -39,7 +39,47 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content/>
+  <content>(% class="row" %)
+(((
+(% class="col-xs-12 col-sm-8" %)
+(((
+(% class="jumbotron" %)
+(((
+(% class="container" %)
+(((
+The Sanke is a white koi, with red and black marks.
+)))
+)))
+
+Don't confuse with [[Showa&gt;&gt;doc:DemoContent.Koï Encyclopedia.Showa.WebHome]].
+
+= Annecdote =
+
+This carp has been create during the reign of the Taisho Emperor, which explains the name //«Taisho-Sanke»// (Sanke means «tricolor»).
+)))
+
+(% class="col-xs-12 col-sm-4" %)
+(((
+(% class="box" %)
+(((
+= Sanke //(Taisho-Sanke)// =
+
+(% style="text-align:center" %)
+[[image:Sanke.jpg||alt="image.jpg" height="250" width="167"]]
+
+|=Colors|White, Red and Black
+|=Date of creation|Between 1868 and 1912
+|=Image|[[Credits&gt;&gt;https://www.flickr.com/photos/randychiu/4129867103/]]
+)))
+
+(% class="box" %)
+(((
+**Contents**
+
+{{toc/}}
+)))
+)))
+)))</content>
   <attachment>
     <filename>Sanke.jpg</filename>
     <author>xwiki:XWiki.Admin</author>

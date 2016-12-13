@@ -39,7 +39,95 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content/>
+  <content>(% class="row" %)
+(((
+(% class="col-xs-12 col-sm-8" %)
+(((
+(% class="jumbotron" %)
+(((
+(% class="container" %)
+(((
+Koï are ornamental fishes, obtained after selection during the breeding of domestical common carps. They have an important place in the Japanese culture, but their popularity is growing all over the world.
+)))
+)))
+
+= Origins =
+
+The common carp were breeded for food by japanese for centuries. When some colors have appeared due to some mutations by the begining of the 19th century, farmers started to select and hybrid the interesting individuals to create colored fishes. In japanese, Koi simply means «carp». They are also called «Nishikigoi», which means «brocarded carp».
+
+The breeding of these fishes became popular quickly in Japan, and their prices started to raide. That is why it has been forbidden by the Japanese authoritizes which saw this trade as speculation. However, the breeding continued clandestinely until the Emperor Taishō's son received 8 wonderful fishes in 1914. Since then, the Koi are famous world-wide.
+
+= The Koi in the Japanese culture =
+
+« //Koi// » is a homophone for « //affection// » or « //love// ». They are a symbol of force, love and fertility. Each year, during the //« Kodomo no hi »// (Children's Day), Japaneses hang koi-shaped wind socks called « //Koinobori// ».
+
+[[image:Koinobori.jpg||alt="Koinobori" width="320" height="214"]]//Some Koinoboris.//
+
+
+Carps are the only fishes able to run up the rapids in China and Confucius would have named his son with the name of these fishes because of their strongness.
+
+= Varietes =
+
+A lof of varietes have been created.
+
+(% class="row" %)
+(((
+(% class="col-md-6" %)
+(((
+* [[Kohaku&gt;&gt;Kohaku]]
+* [[Showa&gt;&gt;Showa]]
+* [[Sanke&gt;&gt;Sanke]]
+* [[Tancho&gt;&gt;Tancho]]
+* [[Chagoi&gt;&gt;Chagoi]]
+* [[Hi Utsuri&gt;&gt;Hi Utsuri]]
+* and many more...
+)))
+
+(% class="col-md-6" %)
+(((
+{{gallery}}
+image:Koi1.jpg
+image:Koi2.jpg
+image:Koi3.jpg
+image:Koi4.jpg
+image:Koi5.jpg
+{{/gallery}}
+)))
+)))
+
+
+ 
+)))
+
+(% class="col-xs-12 col-sm-4" %)
+(((
+(% class="box" %)
+(((
+**Koi //(nishikigoi)//**
+
+[[image:Koi.jpg||alt="image.jpg"]]
+
+(% width="437" height="149" %)
+|=(% scope="row" %)Images|(((
+[[Credits&gt;&gt;https://www.flickr.com/photos/koiquest10/15310178836/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/tablexxnx/14127113672/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/cate1artist/5752821250/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/cate1artist/5752821250/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/koiquest10/16742224935/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/suburbanadventure/7967361284/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/dcgardens/16540301423/]]
+)))
+)))
+
+(% class="box" %)
+(((
+**Contents**
+
+{{toc/}}
+)))
+)))
+)))
+  </content>
   <attachment>
     <filename>Koi.jpg</filename>
     <author>xwiki:XWiki.Admin</author>
