@@ -1,111 +1,132 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
 <xwikidoc version="1.2" reference="DemoContent.Koï Encyclopedia.WebHome" locale="en">
   <web>DemoContent.Koï Encyclopedia</web>
   <name>WebHome</name>
   <language>en</language>
-  <defaultLanguage/>
+  <defaultLanguage>en</defaultLanguage>
   <translation>1</translation>
-  <creator>XWiki.Admin</creator>
+  <creator>xwiki:XWiki.Admin</creator>
   <creationDate>1480936607000</creationDate>
   <parent>DemoContent.WebHome</parent>
-  <author>XWiki.Admin</author>
-  <contentAuthor>XWiki.Admin</contentAuthor>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1480946935000</date>
   <contentUpdateDate>1480946935000</contentUpdateDate>
-  <version>23.1</version>
+  <version>1.1</version>
   <title>Koï Encyclopedia</title>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content>(% class="row" %)&#xd;
-(((&#xd;
-(% class="col-xs-12 col-sm-8" %)&#xd;
-(((&#xd;
-(% class="jumbotron" %)&#xd;
-(((&#xd;
-(% class="container" %)&#xd;
-(((&#xd;
-Koï are ornamental fishes, obtained after selection during the breeding of domestical common carps. They have an important place in the Japanese culture, but their popularity is growing all over the world.&#xd;
-)))&#xd;
-)))&#xd;
-&#xd;
-= Origins =&#xd;
-&#xd;
-The common carp were breeded for food by japanese for centuries. When some colors have appeared due to some mutations by the begining of the 19th century, farmers started to select and hybrid the interesting individuals to create colored fishes. In japanese, Koi simply means «carp». They are also called «Nishikigoi», which means «brocarded carp».&#xd;
-&#xd;
-The breeding of these fishes became popular quickly in Japan, and their prices started to raide. That is why it has been forbidden by the Japanese authoritizes which saw this trade as speculation. However, the breeding continued clandestinely until the Emperor Taishō's son received 8 wonderful fishes in 1914. Since then, the Koi are famous world-wide.&#xd;
-&#xd;
-= The Koi in the Japanese culture =&#xd;
-&#xd;
-« //Koi// » is a homophone for « //affection// » or « //love// ». They are a symbol of force, love and fertility. Each year, during the //« Kodomo no hi »// (Children's Day), Japaneses hang koi-shaped wind socks called « //Koinobori// ».&#xd;
-&#xd;
-[[image:Koinobori.jpg||alt="Koinobori" width="320" height="214"]]//Some Koinoboris.//&#xd;
-&#xd;
-&#xd;
-Carps are the only fishes able to run up the rapids in China and Confucius would have named his son with the name of these fishes because of their strongness.&#xd;
-&#xd;
-= Varietes =&#xd;
-&#xd;
-A lof of varietes have been created.&#xd;
-&#xd;
-(% class="row" %)&#xd;
-(((&#xd;
-(% class="col-md-6" %)&#xd;
-(((&#xd;
-* [[Kohaku>>Kohaku]]&#xd;
-* [[Showa>>Showa]]&#xd;
-* [[Sanke>>Sanke]]&#xd;
-* [[Tancho>>Tancho]]&#xd;
-* [[Chagoi>>Chagoi]]&#xd;
-* [[Hi Utsuri>>Hi Utsuri]]&#xd;
-* and many more...&#xd;
-)))&#xd;
-&#xd;
-(% class="col-md-6" %)&#xd;
-(((&#xd;
-{{gallery}}&#xd;
-image:Koi1.jpg&#xd;
-image:Koi2.jpg&#xd;
-image:Koi3.jpg&#xd;
-image:Koi4.jpg&#xd;
-image:Koi5.jpg&#xd;
-{{/gallery}}&#xd;
-)))&#xd;
-)))&#xd;
-&#xd;
-&#xd;
- &#xd;
-)))&#xd;
-&#xd;
-(% class="col-xs-12 col-sm-4" %)&#xd;
-(((&#xd;
-(% class="box" %)&#xd;
-(((&#xd;
-**Koi //(nishikigoi)//**&#xd;
-&#xd;
-[[image:Koi.jpg||alt="image.jpg"]]&#xd;
-&#xd;
-(% width="437" height="149" %)&#xd;
-|=(% scope="row" %)Images|(((&#xd;
-[[Credits>>https://www.flickr.com/photos/koiquest10/15310178836/]]&#xd;
-[[Credits>>https://www.flickr.com/photos/tablexxnx/14127113672/]]&#xd;
-[[Credits>>https://www.flickr.com/photos/cate1artist/5752821250/]]&#xd;
-[[Credits>>https://www.flickr.com/photos/cate1artist/5752821250/]]&#xd;
-[[Credits>>https://www.flickr.com/photos/koiquest10/16742224935/]]&#xd;
-[[Credits>>https://www.flickr.com/photos/suburbanadventure/7967361284/]]&#xd;
-[[Credits>>https://www.flickr.com/photos/dcgardens/16540301423/]]&#xd;
-)))&#xd;
-)))&#xd;
-&#xd;
-(% class="box" %)&#xd;
-(((&#xd;
-**Contents**&#xd;
-&#xd;
-{{toc/}}&#xd;
-)))&#xd;
-)))&#xd;
-)))&#xd;
+  <content>(% class="row" %)
+(((
+(% class="col-xs-12 col-sm-8" %)
+(((
+(% class="jumbotron" %)
+(((
+(% class="container" %)
+(((
+Koï are ornamental fishes, obtained after selection during the breeding of domestical common carps. They have an important place in the Japanese culture, but their popularity is growing all over the world.
+)))
+)))
+
+= Origins =
+
+The common carp were breeded for food by japanese for centuries. When some colors have appeared due to some mutations by the begining of the 19th century, farmers started to select and hybrid the interesting individuals to create colored fishes. In japanese, Koi simply means «carp». They are also called «Nishikigoi», which means «brocarded carp».
+
+The breeding of these fishes became popular quickly in Japan, and their prices started to raide. That is why it has been forbidden by the Japanese authoritizes which saw this trade as speculation. However, the breeding continued clandestinely until the Emperor Taishō's son received 8 wonderful fishes in 1914. Since then, the Koi are famous world-wide.
+
+= The Koi in the Japanese culture =
+
+« //Koi// » is a homophone for « //affection// » or « //love// ». They are a symbol of force, love and fertility. Each year, during the //« Kodomo no hi »// (Children's Day), Japaneses hang koi-shaped wind socks called « //Koinobori// ».
+
+[[image:Koinobori.jpg||alt="Koinobori" width="320" height="214"]]//Some Koinoboris.//
+
+
+Carps are the only fishes able to run up the rapids in China and Confucius would have named his son with the name of these fishes because of their strongness.
+
+= Varietes =
+
+A lof of varietes have been created.
+
+(% class="row" %)
+(((
+(% class="col-md-6" %)
+(((
+* [[Kohaku&gt;&gt;Kohaku]]
+* [[Showa&gt;&gt;Showa]]
+* [[Sanke&gt;&gt;Sanke]]
+* [[Tancho&gt;&gt;Tancho]]
+* [[Chagoi&gt;&gt;Chagoi]]
+* [[Hi Utsuri&gt;&gt;Hi Utsuri]]
+* and many more...
+)))
+
+(% class="col-md-6" %)
+(((
+{{gallery}}
+image:Koi1.jpg
+image:Koi2.jpg
+image:Koi3.jpg
+image:Koi4.jpg
+image:Koi5.jpg
+{{/gallery}}
+)))
+)))
+
+
+ 
+)))
+
+(% class="col-xs-12 col-sm-4" %)
+(((
+(% class="box" %)
+(((
+**Koi //(nishikigoi)//**
+
+[[image:Koi.jpg||alt="image.jpg"]]
+
+(% width="437" height="149" %)
+|=(% scope="row" %)Images|(((
+[[Credits&gt;&gt;https://www.flickr.com/photos/koiquest10/15310178836/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/tablexxnx/14127113672/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/cate1artist/5752821250/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/cate1artist/5752821250/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/koiquest10/16742224935/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/suburbanadventure/7967361284/]]
+[[Credits&gt;&gt;https://www.flickr.com/photos/dcgardens/16540301423/]]
+)))
+)))
+
+(% class="box" %)
+(((
+**Contents**
+
+{{toc/}}
+)))
+)))
+)))
 </content>
   <attachment>
     <filename>image.jpg</filename>

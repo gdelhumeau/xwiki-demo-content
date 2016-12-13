@@ -1,27 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
 <xwikidoc version="1.2" reference="DemoContent.Blog.XWiki Big Data with Elastic Search" locale="">
   <web>DemoContent.Blog</web>
   <name>XWiki Big Data with Elastic Search</name>
   <language/>
-  <defaultLanguage>en</defaultLanguage>
+  <defaultLanguage/>
   <translation>0</translation>
-  <creator>XWiki.Admin</creator>
+  <creator>xwiki:XWiki.Admin</creator>
   <creationDate>1480951177000</creationDate>
   <parent>xwiki:DemoContent.Blog.WebHome</parent>
-  <author>XWiki.Admin</author>
-  <contentAuthor>XWiki.Admin</contentAuthor>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1480951177000</date>
   <contentUpdateDate>1480951177000</contentUpdateDate>
-  <version>1.2</version>
+  <version>1.1</version>
   <title>XWiki Big Data with Elastic Search</title>
-  <comment>Update document after refactoring.</comment>
-  <minorEdit>true</minorEdit>
+  <comment/>
+  <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
   <content/>
   <attachment>
     <filename>activeinstall-architecture.png</filename>
-    <author>XWiki.enygma</author>
+    <author>xwiki:XWiki.Admin</author>
     <date>1480950971000</date>
     <version>1.1</version>
     <comment/>
@@ -30,7 +51,7 @@
   </attachment>
   <attachment>
     <filename>activeinstall-extensions.png</filename>
-    <author>XWiki.enygma</author>
+    <author>xwiki:XWiki.Admin</author>
     <date>1480950971000</date>
     <version>1.1</version>
     <comment/>
@@ -39,7 +60,7 @@
   </attachment>
   <attachment>
     <filename>activeinstall-retention.png</filename>
-    <author>XWiki.enygma</author>
+    <author>xwiki:XWiki.Admin</author>
     <date>1480950971000</date>
     <version>1.1</version>
     <comment/>
@@ -48,7 +69,7 @@
   </attachment>
   <attachment>
     <filename>activeinstalls-byversionandtype.png</filename>
-    <author>XWiki.enygma</author>
+    <author>xwiki:XWiki.Admin</author>
     <date>1480950971000</date>
     <version>1.1</version>
     <comment/>
@@ -57,7 +78,7 @@
   </attachment>
   <attachment>
     <filename>activeinstalls-counts.png</filename>
-    <author>XWiki.enygma</author>
+    <author>xwiki:XWiki.Admin</author>
     <date>1480950971000</date>
     <version>1.1</version>
     <comment/>
@@ -66,7 +87,7 @@
   </attachment>
   <attachment>
     <filename>activeinstalls-history.png</filename>
-    <author>XWiki.enygma</author>
+    <author>xwiki:XWiki.Admin</author>
     <date>1480950971000</date>
     <version>1.1</version>
     <comment/>
@@ -216,10 +237,10 @@
     </property>
     <property>
       <content>{{info}}
-Update Nov 2016: we published [[an extension>>url:http://extensions.xwiki.org/xwiki/bin/view/Extension/Elastic+Search+Macro/]] to integrate Elasticsearch and Kibana4 into XWiki.
+Update Nov 2016: we published [[an extension&gt;&gt;url:http://extensions.xwiki.org/xwiki/bin/view/Extension/Elastic+Search+Macro/]] to integrate Elasticsearch and Kibana4 into XWiki.
 {{/info}}
 
-Almost two years ago, in the [[XWiki open source community>>http://xwiki.org]], we needed to learn how many XWiki users we actually had and understand a bit better our user base. For this we decided to implement a big data system allowing to get information about the XWiki open source installs, all anonymously of course.
+Almost two years ago, in the [[XWiki open source community&gt;&gt;http://xwiki.org]], we needed to learn how many XWiki users we actually had and understand a bit better our user base. For this we decided to implement a big data system allowing to get information about the XWiki open source installs, all anonymously of course.
 
 We decided to use Elastic Search which is a great technology to store a lot of information and build reports with this data. But we decided to push this a little further in order to have integration with the XWiki software itself. The reason is that while it's important to be able to make complex reports, it is actually even more important to give context to these reports and make them available to our team. This is what the integration with XWiki allowed us to do.
 
@@ -245,11 +266,11 @@ Installed XWiki instances are sending pings every day to the xwiki.org Elastic S
 * The Servlet Container (name and version)
 * Information about which extensions are installed
 
-For more information you can check [[the XWiki extension entry on xwiki.org>>http://extensions.xwiki.org/xwiki/bin/view/Extension/Active+Installs+Client+API]]
+For more information you can check [[the XWiki extension entry on xwiki.org&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Active+Installs+Client+API]]
 
 == Reports ==
 
-With this data we are able to run reports. These reports are available live on [[the XWiki.org web site>>http://www.xwiki.org/xwiki/bin/view/ActiveInstalls/]].
+With this data we are able to run reports. These reports are available live on [[the XWiki.org web site&gt;&gt;http://www.xwiki.org/xwiki/bin/view/ActiveInstalls/]].
 
 The first reports we did are counting the actual installations:
 
@@ -326,7 +347,7 @@ Here is an example of a script that is used to generate the table:
       #set ($count = $mathtool.add($count, $value))
     #end
   #end
-  #if ($count > 0)
+  #if ($count &gt; 0)
     |Other|$count
   #end
 #end
@@ -395,14 +416,14 @@ Finally, as we have seen with the retention report, it was sufficiently complex 
 
 Thanks to the XWiki APIs, we can build things like the realtime counter and we can even let the user make choices when displaying the data. She can filter the platform extensions from the extension report or choose the number of days for the retention report and we can play with the UI with the full capabilities of HTML.
 
-If your company has a big data project, [[XWiki SAS>>http://www.xwiki.com/fr/services/developpement]] can help you, not only to display your data in XWiki but also to build the right model that will allow to retrieve the data that is meaningful for your company.
+If your company has a big data project, [[XWiki SAS&gt;&gt;http://www.xwiki.com/fr/services/developpement]] can help you, not only to display your data in XWiki but also to build the right model that will allow to retrieve the data that is meaningful for your company.
 
 
 //Crossposted from: http://www.xwiki.com/en/Blog/xwiki-big-data-elastic-search //</content>
     </property>
     <property>
       <extract>{{info}}
-Update Nov 2016: we published [[an extension>>url:http://extensions.xwiki.org/xwiki/bin/view/Extension/Elastic+Search+Macro/]] to integrate Elasticsearch and Kibana4 into XWiki.
+Update Nov 2016: we published [[an extension&gt;&gt;url:http://extensions.xwiki.org/xwiki/bin/view/Extension/Elastic+Search+Macro/]] to integrate Elasticsearch and Kibana4 into XWiki.
 {{/info}}
 
 Almost two years ago, in the XWiki open source community, we needed to learn how many XWiki users we actually had and understand a bit better our user base. For this we decided to implement a big data system allowing to get information about the XWiki open source installs, all anonymously of course.</extract>

@@ -1,27 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
 <xwikidoc version="1.2" reference="DemoContent.Blog.HowToBreakAPI" locale="">
   <web>DemoContent.Blog</web>
   <name>HowToBreakAPI</name>
   <language/>
-  <defaultLanguage>en</defaultLanguage>
+  <defaultLanguage/>
   <translation>0</translation>
-  <creator>XWiki.Admin</creator>
+  <creator>xwiki:XWiki.Admin</creator>
   <creationDate>1480951116000</creationDate>
   <parent>xwiki:DemoContent.Blog.WebHome</parent>
-  <author>XWiki.Admin</author>
-  <contentAuthor>XWiki.Admin</contentAuthor>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1480951116000</date>
   <contentUpdateDate>1480951116000</contentUpdateDate>
-  <version>1.2</version>
+  <version>1.1</version>
   <title>How to break an API: The XWiki view</title>
-  <comment>Update document after refactoring.</comment>
-  <minorEdit>true</minorEdit>
+  <comment/>
+  <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
   <content/>
   <attachment>
     <filename>scalexwiki.png</filename>
-    <author>XWiki.VincentMassol</author>
+    <author>xwiki:XWiki.Admin</author>
     <date>1480950971000</date>
     <version>1.1</version>
     <comment/>
@@ -169,13 +190,13 @@
       </category>
     </property>
     <property>
-      <content>This is an add-on to the interesting article [[How to break an API>>http://breakingapis.org/]] which shows how several projects handle backward compatibility (Eclipse, R and Node.js). This article presents the position of the [[XWiki open source project>>http://xwiki.org]].
+      <content>This is an add-on to the interesting article [[How to break an API&gt;&gt;http://breakingapis.org/]] which shows how several projects handle backward compatibility (Eclipse, R and Node.js). This article presents the position of the [[XWiki open source project&gt;&gt;http://xwiki.org]].
 
 = The XWiki Ecosystem: Extensible wiki and framework, over 800 extensions since 2004 =
 
 The XWiki project started in 2004, it's now 12 years old. It can be seen as a professional wiki but it's much more. It's actually a platform for developing collaborative web apps and thus it provides lots of API. The whole of XWiki can be accessed through API and the default wiki provided is just an example of what you can achieve with the API (similar to Eclipse JDT - the IDE - which is just an example of what can be done with Eclipse APIs).
 
-> XWiki extensions developed 10 years ago can still be installed in the newest versions of XWiki and will mostly work (some small UI aspects may be off a bit but the API calls will still work).
+&gt; XWiki extensions developed 10 years ago can still be installed in the newest versions of XWiki and will mostly work (some small UI aspects may be off a bit but the API calls will still work).
 
 = Community Values in XWiki =
 
@@ -197,10 +218,10 @@ image:scalexwiki.png
 (((
 === Expensive for changer ===
 * Willing to accept high costs and opportunity costs for compatibility
-* Community created [[detailed best practices around binary compatibility>>http://dev.xwiki.org/xwiki/bin/view/Community/DevelopmentPractices#HBackwardCompatibility]]
-* Detailed change documentation for each release. [[Example>>http://www.xwiki.org/xwiki/bin/view/ReleaseNotes/ReleaseNotesXWiki80#HBackwardCompatibilityandMigrationNotes]]
+* Community created [[detailed best practices around binary compatibility&gt;&gt;http://dev.xwiki.org/xwiki/bin/view/Community/DevelopmentPractices#HBackwardCompatibility]]
+* Detailed change documentation for each release. [[Example&gt;&gt;http://www.xwiki.org/xwiki/bin/view/ReleaseNotes/ReleaseNotesXWiki80#HBackwardCompatibilityandMigrationNotes]]
 * Fighting resulting amounting technical debt with tools with legacy modules by moving out deprecated methods
-* [[Static analysis tool>>http://massol.myxwiki.org/xwiki/bin/view/Blog/ByeByeCLIRRWelcomeRevapi]] to check compatibility at build time (failing the build when breakage found)
+* [[Static analysis tool&gt;&gt;http://massol.myxwiki.org/xwiki/bin/view/Blog/ByeByeCLIRRWelcomeRevapi]] to check compatibility at build time (failing the build when breakage found)
 * Semantic versioning and backporting important bugs into LTS releases
 )))
 (((
@@ -213,7 +234,7 @@ image:scalexwiki.png
 
 = Speed of Development =
 
-The XWiki open source project has developed [[several strategies>>http://massol.myxwiki.org/xwiki/bin/view/Blog/BackwardCompatibilityStrategy]] to balance the cost of preserving backward compatibility with the ability to innovate at the same time:
+The XWiki open source project has developed [[several strategies&gt;&gt;http://massol.myxwiki.org/xwiki/bin/view/Blog/BackwardCompatibilityStrategy]] to balance the cost of preserving backward compatibility with the ability to innovate at the same time:
 * ##@Unstable## annotation to signify to developers when a new API is introduced and can be subject to changes. Changes during one full cycle is allowed (which means up to 2 years in the unstable state). This is to acknowledge the fact that creating an API right on the first try is an almost impossible feat. In addition, the XWiki project has an automated build-time enforcer to break the build if an ##@Unstable## annotations remains in the code but its time has elapsed (using the ##@since## version). Example of usage:(((
 {{code language="java"}}
 /**
@@ -237,7 +258,7 @@ However the XWiki project takes substantial time and effort to ensure backward c
 </content>
     </property>
     <property>
-      <extract>This is an add-on to the interesting article [[How to break an API>>http://breakingapis.org/]] which shows how several projects handle backward compatibility (Eclipse, R and Node.js). This article presents the position of the [[XWiki open source project>>http://xwiki.org]].
+      <extract>This is an add-on to the interesting article [[How to break an API&gt;&gt;http://breakingapis.org/]] which shows how several projects handle backward compatibility (Eclipse, R and Node.js). This article presents the position of the [[XWiki open source project&gt;&gt;http://xwiki.org]].
 </extract>
     </property>
     <property>
