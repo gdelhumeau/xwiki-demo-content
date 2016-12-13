@@ -24,7 +24,7 @@
   <web>DemoContent.Koï Encyclopedia.Tancho</web>
   <name>WebHome</name>
   <language/>
-  <defaultLanguage>en</defaultLanguage>
+  <defaultLanguage/>
   <translation>0</translation>
   <parent>DemoContent.Koï Encyclopedia.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
